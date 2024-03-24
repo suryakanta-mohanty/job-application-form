@@ -68,18 +68,22 @@ body{
     outline-color: rgba(255, 0, 0, 0.619)
 }
 
+label{
+    margin-bottom: 5px;
+}
+
 .btn{
     display: flex;
     justify-content: end;
 }
 
 .btn button{
-    padding: 4px 9px;
+    padding: 5px 10px;
     border: none;
     border-radius: 4px;
     background-color: #f85959;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -117,8 +121,21 @@ body{
         font-size: 13px;
     }
 
+    .form_control input{
+        height: 30px;
+        padding-left: 10px;
+    }
+
     .textarea{
         grid-column: 1/span 1;
         
+    }
+    .textarea textarea{
+        padding-top: 3px;
+    }
+
+    .btn button{
+        font-size: 15px;
+        font-weight: 600;
     }
 }
